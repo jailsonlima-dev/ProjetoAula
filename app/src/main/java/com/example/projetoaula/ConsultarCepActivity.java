@@ -38,7 +38,7 @@ public class ConsultarCepActivity extends AppCompatActivity {
     }
 
     private void buscaEndereco(String cep, TextView txtResultadoCep) {
-        String url = "https://viacep.com.br/ws/" + cep + "/json";
+        String url = "https://v     iacep.com.br/ws/" + cep + "/json";
         new Thread(() -> {
 
             try {

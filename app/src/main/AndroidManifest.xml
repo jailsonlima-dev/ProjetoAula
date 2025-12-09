@@ -42,6 +42,9 @@
         <activity
             android:name=".ListaCompraActivity"
             android:exported="false"/>
+        <activity
+            android:name=".ApiActivity"
+            android:exported="false"/>
     </application>
 
 

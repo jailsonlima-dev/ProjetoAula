@@ -17,6 +17,7 @@ public class MenuActivity extends AppCompatActivity {
         Button btnConversorTemperatura= findViewById(R.id.btnConversorTemperatura);
         Button btnConsultarCep = findViewById(R.id.btnConsultarCep);
         Button btnListaCompras = findViewById(R.id.btnListaCompras);
+        Button btnapi = findViewById(R.id.btnapi);
 
         btnFrases.setOnClickListener(v ->{
             Intent intent = new Intent(MenuActivity.this, FrasesActivity.class);
@@ -38,6 +39,11 @@ public class MenuActivity extends AppCompatActivity {
             Intent intent = new Intent(MenuActivity.this, ListaCompraActivity.class);
             startActivity(intent);
         });
+        btnapi.setOnClickListener(v ->{
+            Intent intent = new Intent(MenuActivity.this, ApiActivity.class);
+            startActivity(intent);
+        });
+
 
 
     }
